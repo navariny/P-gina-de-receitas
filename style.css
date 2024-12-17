@@ -1,2 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonte para títulos e cabeçalhos */
+
+h1,
+h2,
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+  }
+  
+/* Fonte para parágrafos e textos */
+
+p,
+li,
+ul,
+ol {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: #555;
+}
+
+body {
+    background-color: hsl(330, 100%, 98%);
+    min-height: 100vh;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f5f0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    width: 700px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
